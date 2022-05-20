@@ -1,0 +1,51 @@
+@import "./theme.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    /* height: 8vh; */
+}
+
+
+.left{
+    background-color: var(--mavi-9);
+    width: 100vw;
+    height: 5vh;
+}
+.mid{
+    background-color: var(--mavi-11);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:0  20px;
+    /* border: 2px solid white; */
+    border-radius: 1rem;
+}
+.right{
+    background-color: var(--mavi-5);
+    width: 100vw;
+    height: 4vh;
+}
+.button{
+    font-size: 1rem;
+    height: 4rem;
+    width: 5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mid:hover{
+    /* background-color: rgb(185, 185, 237); */
+}
+.icon{
+    height: 3.5vh;
+    
+}
